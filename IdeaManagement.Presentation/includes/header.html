@@ -1,0 +1,20 @@
+﻿<link rel="stylesheet" href="../css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../css/grid.css" type="text/css" media="screen" />
+<div id="nav" class="container_12 clearfix">
+    <ul>
+        <li><a href="../home/index.aspx">Home</a></li>
+        <li><a href="../home/GiveSuggestion.aspx">Give Suggestions</a></li>
+        <li><a href="../home/howitworks.html">How It Works</a></li>
+        <li><a id="about-us" href="#">About Us</a></li>
+        <li><a id="contact-us" href="#">Contact Us</a></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    $("#about-us").click(function () {
+        $('html, body').animate({ scrollTop: $("#main").offset().top }, 500);
+    });
+    $("#contact-us").click(function () {
+        $('html, body').animate({ scrollTop: $("#address").offset().top }, 500);
+    });
+</script>

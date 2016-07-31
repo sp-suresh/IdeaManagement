@@ -1,0 +1,10 @@
+*/bin
+*/obj
+*.suo
+/packages
+*.log
+*/ErrorLogs/
+*.config
+*.vsdoc
+/AutoBiz.UI/CarTrade/Certification/CertificationRequest.aspx
+/AutoBiz.UI/CarTrade/Certification/CertificationRequest.aspx.cs
