@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaManagement.BAL", "IdeaManagement.BAL\IdeaManagement.BAL.csproj", "{DC974424-B2E1-4C1E-A0DF-A607BA543A52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdeaManagement.BAL", "IdeaManagement.BAL", "{1FB4FFD4-260C-4A83-A008-8A4E76295DB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdeaManagement.DAL", "IdeaManagement.DAL", "{18971C4C-48CF-438B-8577-EB22A4692285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaManagement.DAL", "IdeaManagement.DAL\IdeaManagement.DAL.csproj", "{8C0AD4CD-8F78-4FDC-8C65-76BD4321850B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdeaManagement.Interface", "IdeaManagement.Interface", "{C68E3EC7-FAE2-4FCF-9136-EE2B0ED64BEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaManagement.Inteface", "IdeaManagement.Inteface\IdeaManagement.Inteface.csproj", "{E62B73FF-8992-44A0-BAF6-6C077D7C5DA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdeaManagement.Entities", "IdeaManagement.Entities", "{ECEA1DBE-A093-4F78-954F-721BA832CD10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaManagement.Entites", "IdeaManagement.Entites\IdeaManagement.Entites.csproj", "{DA3531E4-A216-43F7-A0E5-E1BD5627A74D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdeaManagement.Services", "IdeaManagement.Services", "{611CC489-4607-4B22-9E4D-E1A91F03DEDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaManagement.Services", "IdeaManagement.Services\IdeaManagement.Services.csproj", "{F2C4C7D2-135B-4397-A9D0-F4674B06D9D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdeaManagement.Notification", "IdeaManagement.Notification", "{081D442D-6991-49AF-8956-B5C05D3BF45D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaManagement.Notification", "IdeaManagement.Notification\IdeaManagement.Notification.csproj", "{7106703B-7F6A-4560-9777-840E6EC455B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdeaManagement.Presentation", "IdeaManagement.Presentation", "{32CC8316-618A-4F1C-AFE7-CC5D4167D94C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaManagement.Presentation", "IdeaManagement.Presentation\IdeaManagement.Presentation.csproj", "{91521425-49F7-465F-9D07-5AED3400F564}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC974424-B2E1-4C1E-A0DF-A607BA543A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC974424-B2E1-4C1E-A0DF-A607BA543A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC974424-B2E1-4C1E-A0DF-A607BA543A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC974424-B2E1-4C1E-A0DF-A607BA543A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0AD4CD-8F78-4FDC-8C65-76BD4321850B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0AD4CD-8F78-4FDC-8C65-76BD4321850B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0AD4CD-8F78-4FDC-8C65-76BD4321850B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0AD4CD-8F78-4FDC-8C65-76BD4321850B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62B73FF-8992-44A0-BAF6-6C077D7C5DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62B73FF-8992-44A0-BAF6-6C077D7C5DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62B73FF-8992-44A0-BAF6-6C077D7C5DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62B73FF-8992-44A0-BAF6-6C077D7C5DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3531E4-A216-43F7-A0E5-E1BD5627A74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3531E4-A216-43F7-A0E5-E1BD5627A74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3531E4-A216-43F7-A0E5-E1BD5627A74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3531E4-A216-43F7-A0E5-E1BD5627A74D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C4C7D2-135B-4397-A9D0-F4674B06D9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C4C7D2-135B-4397-A9D0-F4674B06D9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C4C7D2-135B-4397-A9D0-F4674B06D9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C4C7D2-135B-4397-A9D0-F4674B06D9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7106703B-7F6A-4560-9777-840E6EC455B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7106703B-7F6A-4560-9777-840E6EC455B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7106703B-7F6A-4560-9777-840E6EC455B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7106703B-7F6A-4560-9777-840E6EC455B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91521425-49F7-465F-9D07-5AED3400F564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91521425-49F7-465F-9D07-5AED3400F564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91521425-49F7-465F-9D07-5AED3400F564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91521425-49F7-465F-9D07-5AED3400F564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC974424-B2E1-4C1E-A0DF-A607BA543A52} = {1FB4FFD4-260C-4A83-A008-8A4E76295DB2}
+		{8C0AD4CD-8F78-4FDC-8C65-76BD4321850B} = {18971C4C-48CF-438B-8577-EB22A4692285}
+		{E62B73FF-8992-44A0-BAF6-6C077D7C5DA3} = {C68E3EC7-FAE2-4FCF-9136-EE2B0ED64BEA}
+		{DA3531E4-A216-43F7-A0E5-E1BD5627A74D} = {ECEA1DBE-A093-4F78-954F-721BA832CD10}
+		{F2C4C7D2-135B-4397-A9D0-F4674B06D9D1} = {611CC489-4607-4B22-9E4D-E1A91F03DEDB}
+		{7106703B-7F6A-4560-9777-840E6EC455B4} = {081D442D-6991-49AF-8956-B5C05D3BF45D}
+		{91521425-49F7-465F-9D07-5AED3400F564} = {32CC8316-618A-4F1C-AFE7-CC5D4167D94C}
+	EndGlobalSection
+EndGlobal
